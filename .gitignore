@@ -1,0 +1,14 @@
+## Repo: Sort-bench
+
+out/
+test/
+*.backup
+*.exe
+*.bin
+*~
+*.out
+.vs/*
+*.mod
+*.dll
+*.lib
+*.dat
