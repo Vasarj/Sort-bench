@@ -4,7 +4,7 @@
 * @version 21/10/17
 *
 * Insertion Sort
-* ´´´´´´´´´´´´´´
+* Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´
 *  Characteristics:
 *     - best case: O( n )
 *     - average case: O( n^2 )
@@ -13,9 +13,9 @@
 *     - stable: yes
 *
 *  Discussion:
-*     - while could be written as three-line can be more
-*       efficient than Selection and Bubble sort (even 
-*       Quick Sort sometimes) in cases of small arrays
+*     - while could be written as three-liner code, it can
+*       be moreefficient than Selection and Bubble sort
+*       (even Quick Sort sometimes) in cases of small arrays
 *     - divides array into 'sorted' and 'unsorted',
 *       picks a 'key' on the division line, and inserts 
 *       it into its place in 'sorted' part of array
