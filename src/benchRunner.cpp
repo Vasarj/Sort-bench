@@ -40,13 +40,13 @@ using std::chrono::high_resolution_clock;
 int main( ) {
 
    // --- Size of the array
-   const int N = 10 * 1000;
+   const int N = 50 * 1000;
 
    // --- Type of the array
    using Type = double;
 
    // --- Number of runs
-   const int R = 3;
+   const int R = 5;
 
    // --- Save the results of each run
    vector<vector<double>> res;
@@ -69,11 +69,11 @@ int main( ) {
 
    // --- List of algorithms to test:
    vector<pair<Func, string>> algorithms;
-   algorithms.push_back(make_pair(&bubbleSort<Type>, "Bubble Sort"));
    algorithms.push_back(make_pair(&heapSort<Type>,   "Heap Sort"));
    algorithms.push_back(make_pair(&insertSort<Type>, "Insertion Sort"));
    algorithms.push_back(make_pair(&mergeSort<Type>,  "Merge Sort"));
    algorithms.push_back(make_pair(&quickSort<Type>,  "Quick Sort"));
+   algorithms.push_back(make_pair(&bubbleSort<Type>, "Bubble Sort"));
    algorithms.push_back(make_pair(&selectSort<Type>, "Selection Sort"));
    res.resize(algorithms.size( ));
 
