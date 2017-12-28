@@ -4,7 +4,7 @@
 * @version 21/10/17
 *
 * Bench Runner
-* ´´´´´´´´´´´´
+* Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´
 *     - Executes benchruns for the listed
 *       sorting algorithms. For better accuracy
 *       benchruns are repeated 'R' number of times.
@@ -88,7 +88,7 @@ int main( ) {
    // --- Benchmark Repetitions
    for (int j = 0; j < R; j++) {
 
-      printf("\n---- Benchrun: %d\n", j + 1);
+      cout << endl << "---- Benchrun: " << j + 1 << endl;;
 
       int v = 0;
 
