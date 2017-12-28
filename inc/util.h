@@ -4,9 +4,9 @@
 * @version 21/10/17
 *
 * Utilities 
-* ´´´´´´´´´
+* Â´Â´Â´Â´Â´Â´Â´Â´Â´
 *  Contains templates:
-*     - swap(..)          : swap to items in an array
+*     - swap(..)          : swap two items in an array
 *     - printArray(..)    : pretty printing for an array
 *     - copyArr(..)       : copy one array into the other
 *     - genRandom(..)     : generate a random number in the given range
@@ -18,7 +18,7 @@
 #pragma once
 
 #include <iostream>
-#include <array>   // NEED: array<>
+#include <array>   // NEED: array
 #include <random>  // NEED: random_device, mt19937
 
 template<typename T> 
