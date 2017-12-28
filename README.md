@@ -14,7 +14,7 @@ Current list of sorting algorithms included:
 - Quick Sort
 - Selection Sort
 
-Other algorithms can be added to benchRunner be easily added to the benchmark driver by adding
+Other algorithms can be added to the bench driver easily by inserting the following line in `benchRunner.cpp`
 ```
 algorithms.push_back(make_pair(& /*template sorting function HERE*/ <Type>, "/*name of sorting method HERE*/"));
 ```
