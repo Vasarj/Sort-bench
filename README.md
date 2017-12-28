@@ -3,10 +3,10 @@
 ## Different sorting algorithms and their benchmarks
 
 The code for sorting algorithms is found in `\inc` directory.
-The driver for the set of benchmarks in in `\src` directory.
-Algorithms time and memory complexity, along with main key features is found in corresponding headers. See documentation.
+The driver for the set of benchmarks is in `\src` directory.
+Algorithms time and memory complexity, along with discussion of some key features, are found in corresponding headers. See documentation.
 
-Current list of sorting algorithms included:
+Current list of sorting algorithms include:
 - Bubble Sort
 - Heap Sort
 - Insertion Sort
@@ -14,7 +14,7 @@ Current list of sorting algorithms included:
 - Quick Sort
 - Selection Sort
 
-Other algorithms can be added to the bench driver easily by inserting the following line in `benchRunner.cpp`
+Other algorithms can be added to the bench driver easily by inserting the following line into `benchRunner.cpp`
 ```
 algorithms.push_back(make_pair(& /*template sorting function HERE*/ <Type>, "/*name of sorting method HERE*/"));
 ```
