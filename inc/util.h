@@ -18,7 +18,6 @@
 #pragma once
 
 #include <iostream>
-#include <array>   // NEED: array
 #include <random>  // NEED: random_device, mt19937
 
 template<typename T> 
