@@ -1,4 +1,7 @@
-# OpenMP-bench: makefile
+# makefile for Sort-bench 
+#
+# --> compile & run:  make run
+# --> compile & test: make test
 #
 
 # Googletest settings
