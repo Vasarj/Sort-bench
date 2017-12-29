@@ -16,6 +16,8 @@
 
 #include "gtest/gtest.h"
 
+#include "../inc/util.h"
+
 #include "../inc/bubbleSort.h"
 #include "../inc/heapSort.h"
 #include "../inc/insertSort.h"
