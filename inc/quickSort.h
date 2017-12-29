@@ -4,12 +4,12 @@
 * @version 21/10/17
 *
 * Quick Sort
-* ´´´´´´´´´´
+* Â´Â´Â´Â´Â´Â´Â´Â´Â´Â´
 *  Characteristics:
 *     - best case: O( n log(n) )
 *     - average case: O( n log(n) )
 *     - worst case: O( n^2 )
-*     - memory complexity: O( log(n) )
+*     - memory complexity: O( log(n) ) [ average case ]
 *     - stable: no (if most efficient)
 *
 *  Discussion:
