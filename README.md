@@ -2,6 +2,8 @@
 
 ## Different sorting algorithms and their benchmarks
 
+This mini-project offers a naive implementation of a few popular sorting algorithms for the sake of practice. The provided benchmarking driver is to quantitatively evaluate their performance.
+
 The code for sorting algorithms is found in `\inc` directory.
 The driver for the set of benchmarks is in `\src` directory.
 Algorithms time and memory complexity, along with discussion of some key features, are found in corresponding headers. See documentation.
@@ -15,8 +17,8 @@ Current list of sorting algorithms include:
 - Selection Sort
 
 Other algorithms can be added to the bench driver easily by inserting the following line into `benchRunner.cpp`
-```
-algorithms.push_back(make_pair(& /*template sorting function HERE*/ <Type>, "/*name of sorting method HERE*/"));
+```C++
+algorithms.push_back(make_pair(& /*template of sorting METHOD*/ <Type>, "/*sorting method NAME*/"));
 ```
 
 ## Compile & Run
