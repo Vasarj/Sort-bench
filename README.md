@@ -8,6 +8,8 @@ The code for sorting algorithms is found in `\inc` directory.
 The driver for the set of benchmarks is in `\src` directory.
 Algorithms time and memory complexity, along with discussion of some key features, are found in corresponding headers. See documentation.
 
+Googletest unit tests are included in `\gtest` to validate the sorting algorithms. **Compile & test** with `make test`.
+
 Current list of sorting algorithms include:
 - Bubble Sort
 - Heap Sort
